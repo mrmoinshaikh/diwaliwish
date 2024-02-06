@@ -1,4 +1,4 @@
-// JavaScript to generate wishes and handle button click
+
 document.getElementById('generateButton').addEventListener('click', function() {
     const nameInput = document.getElementById('nameInput').value;
     const diwaliWish = document.getElementById('diwaliWish');
@@ -15,7 +15,7 @@ document.getElementById('generateButton').addEventListener('click', function() {
 });
 
 
-// Function to share the name
+
 function shareName() {
     const name = document.getElementById('nameInput').value;
     const shareURL = `${window.location.origin}${window.location.pathname}?name=${encodeURIComponent(name)}`;
