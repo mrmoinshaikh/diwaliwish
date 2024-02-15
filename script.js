@@ -26,7 +26,6 @@ function shareName() {
     alert(shareText);
 }
 
-// Add an event listener for the Share button
 document.getElementById('shareButton').addEventListener('click', shareName);
 
 
