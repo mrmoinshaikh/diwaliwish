@@ -21,8 +21,6 @@ function shareName() {
     const shareURL = `${window.location.origin}${window.location.pathname}?name=${encodeURIComponent(name)}`;
     const shareText = `Check out my name: ${name} on this Diwali Wishing Website! ${shareURL}`;
     
-    // You can customize the sharing method here (e.g., copying to clipboard, opening in a new window, etc.)
-    // For simplicity, we'll just display a message with the share text.
     alert(shareText);
 }
 
